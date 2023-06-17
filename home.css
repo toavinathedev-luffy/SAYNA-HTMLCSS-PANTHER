@@ -1,0 +1,104 @@
+picture.social-media-fixed {
+    gap: 15px;
+}
+
+.content-principal section,
+aside,
+.content-principal article {
+    background-color: slategray;
+}
+
+/* =================================================================*/
+.personage-wakanda .perso {
+    display: flex;
+    justify-content: start;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+section.personage-wakanda img[alt="rival-Black-Panther"] {
+    width: 200px;
+    height: 300px;
+}
+
+main .content-principal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    gap: 15px;
+}
+
+section.personage-wakanda {
+    grid-column: 1/3;
+}
+
+.personage-wakanda figure {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.perso .perso-img {
+    height: 200px;
+}
+
+.perso {
+    height: 40%;
+    background-color: brown;
+    margin-top: 40px;
+
+}
+
+.perso-desc {
+    height: 200px;
+}
+
+.personage-wakanda .perso figure .perso-desc {
+    background-color: blue;
+    padding: 25px;
+    height: 100%;
+}
+
+/*-aside-*/
+aside {
+    margin: auto;
+}
+
+
+/*----------------------- form -----------------------------------------*/
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    margin: auto;
+    background-color: rgba(254, 253, 251, 0.5);
+    width: 60%;
+
+    border-radius: 100px;
+    margin-top: 40px;
+    height: 65%;
+
+}
+
+#contact {
+    background: url("./images/Illustrations+Logo/Accueil/formBackground.png");
+    padding: 20px;
+    margin-top: 30px;
+    margin: auto;
+    height: 900px;
+    padding-top: 15%;
+
+}
+
+input,
+textarea {
+    padding: 10px;
+    border-bottom: 2px solid black;
+    background: transparent;
+    border-radius: 30px;
+    width: 50%;
+}
