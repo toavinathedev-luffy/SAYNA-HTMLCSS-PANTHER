@@ -3,4 +3,22 @@ main {
     margin: auto;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1f 1fr 1fr 1fr 1fr;
+    gap: 2px;
+}
+
+.boxes {
+    background-color: blueviolet;
+}
+
+.origine {
+    grid-row: 1/3;
+}
+
+.cinema-afro {
+    grid-row: 4/6;
+}
+
+.decoration-BP {
+    background: url(./images/Illustrations+Logo/Wakanda/Pantherwakanda2-1.png);
+
 }
