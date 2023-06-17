@@ -1,0 +1,6 @@
+main {
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1f 1fr 1fr 1fr 1fr;
+}
