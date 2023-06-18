@@ -1,11 +1,14 @@
-main {
+.content-wakanda {
     margin: auto !important;
     width: 90%;
 }
 
 .hero-wakanda {
-    background: #fff;
-    padding-right: 50%;
+    background: url(./images/Illustrations+Logo/Wakanda/Pantherwakanda1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25%;
+    width: 100%
 }
 
 .content-wakanda1 {
