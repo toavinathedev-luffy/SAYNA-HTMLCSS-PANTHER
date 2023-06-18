@@ -4,6 +4,11 @@
 
 }
 
+P {
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
 header nav {
   display: flex;
   justify-content: space-between;
@@ -19,6 +24,16 @@ header nav ul {
 
 }
 
+body {
+  color: white;
+  background: radial-gradient(126.67% 350.28% at -21.35% 0%, #11213F 0%, #0B0B0B 39.1%, rgba(2, 23, 64,
+        0.837641) 94.57%, rgba(2, 23, 64, 0) 100%)
+    /* warning:
+gradient uses a rotation that is not supported by CSS and
+may not behave as expected */
+  ;
+}
+
 .hero {
   display: flex;
   justify-content: space-around;
@@ -26,14 +41,15 @@ header nav ul {
 
 
 /*-------------------------------------------------------------------------*/
-footer {
+footer .foot {
+  padding-top: 10%;
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  background-color: blue;
-
+  /* background-color: blue; */
   padding: 6%;
+  Background: linear-gradient(180deg, #3D2DA6 0%, #021740 90.43%);
 }
 
 footer .logo-sayna {
@@ -46,4 +62,8 @@ footer .logo-sayna {
 footer .pages,
 footer .social-media-footer {
   margin-bottom: 25%;
+}
+
+footer .foot {
+  background: radial-gradient(#3D2DA6 0%, #021740 30, 92%);
 }

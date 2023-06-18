@@ -2,11 +2,12 @@ picture.social-media-fixed {
     gap: 15px;
 }
 
-.content-principal section,
+/* .content-principal section,
 aside,
 .content-principal article {
     background-color: slategray;
-}
+} */
+
 
 /* =================================================================*/
 .personage-wakanda .perso {
@@ -64,6 +65,7 @@ section.personage-wakanda {
 aside {
     margin: auto;
 }
+
 
 
 /*----------------------- form -----------------------------------------*/
