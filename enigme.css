@@ -1,0 +1,37 @@
+ .actor-image-enigme img {
+     /* background: url(./images/Illustrations+Logo/Enigme/Pantherenigme1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+     width: 95%;
+     height: 100%;
+     margin-left: 25%;
+ }
+
+ .actor-image-enigme {
+     margin: auto;
+     margin-bottom: 1%;
+ }
+
+ .txt-enigme p {
+     margin-right: 20px;
+     margin-top: 20%
+ }
+
+ .quiz {
+     display: flex;
+     gap: 25%
+ }
+
+ .doYouKnow {
+     text-align: center;
+
+ }
+
+ .text-enigme {
+     background: url(./images/Illustrations+Logo/Enigme/Pantherenigme2.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+
+ }
