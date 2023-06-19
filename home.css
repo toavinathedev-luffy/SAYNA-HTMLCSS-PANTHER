@@ -1,5 +1,10 @@
 picture.social-media-fixed {
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
     gap: 15px;
+    margin-top: 15%;
 }
 
 /* .content-principal section,
@@ -116,6 +121,13 @@ textarea {
     padding: 10px;
     border-bottom: 2px solid black;
     background: transparent;
-    border-radius: 30px;
-    width: 50%;
+    border-radius: 38px;
+    width: 520px;
+    height: 56px;
+}
+
+input[type=submit] {
+    padding-left: 2%;
+    padding-right: 2%;
+    width: max-content
 }
