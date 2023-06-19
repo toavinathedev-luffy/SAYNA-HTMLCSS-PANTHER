@@ -84,13 +84,15 @@ aside {
 
 .tchalla-actor {
     width: 60%;
-    margin-bottom: 25%;
+    margin-bottom: 40%;
+    z-index: 3;
 
 }
 
 /*----------------------- form -----------------------------------------*/
 
 form {
+    color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -129,5 +131,7 @@ textarea {
 input[type=submit] {
     padding-left: 2%;
     padding-right: 2%;
-    width: max-content
+    width: 174px;
+    height: 54px;
+    border-radius: 38px;
 }
