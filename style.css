@@ -1,6 +1,42 @@
+@font-face {
+  font-family: 'beyno';
+  src: url(./font/beyno/BEYNO/BEYNO.otf) format('opentype'),
+    url(./font/beyno/BEYNO/BEYNO.ttf) format('opentype'),
+    url(./font/beyno/__MACOSX/BEYNO/BEYNO.ttf) format("truetype")
+}
 
+@font-face {
+  font-family: 'cantarell';
+  src: url(./font/cantarell/Cantarell-Bold.ttf) format('truetype'),
 
+}
 
+@font-face {
+  font-family: 'panthera';
+  src: url(./font/Panthera/PantheraRegular-MVZ9J.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'wakanda-forever';
+  src: url(./font/wakanda_forever/WakandaForever-Regular.ttf)
+}
+
+input {
+  width: 174px;
+  height: 54px;
+  border-radius: 38px;
+}
+
+h1 {
+  font-family: 'panthera';
+  font-weight: 400;
+}
+
+h2,
+.link-ankre {
+  font-family: 'beyno';
+  font-weight: 400;
+}
 
 
 * {
@@ -9,7 +45,31 @@
 
 }
 
+p,
+blockquote,
+footer {
+  font-family: 'cantarell';
+
+}
+
+blockquote {
+  font-size: 14px;
+}
+
+p {
+  font-size: 16px;
+}
+
+footer {
+  font-size: 10px;
+}
+
+li {
+  list-style: none;
+}
+
 P {
+  margin-top: 10px;
   margin-bottom: 30px;
   text-align: justify;
 }
@@ -18,7 +78,7 @@ header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: skyblue;
+
   padding: 20px;
 }
 
@@ -45,13 +105,13 @@ may not behave as expected */
 }
 
 .hero-text {
+  margin-top: 20px;
   width: 40%;
   display: flex;
   flex-direction: column;
   justify-content: start;
   margin: auto;
-
-
+  gap: 20px;
 }
 
 .hero-actor img {
@@ -74,6 +134,28 @@ may not behave as expected */
 
 }
 
+/**/
+input {
+  width: 540px;
+  height: 56px;
+  border-radius: 38px;
+}
+
+input[type="submit"] {
+  width: 174px;
+  height: 54px;
+  border-radius: 38px;
+  background-color: #F2CEF2;
+  cursor: pointer;
+}
+
+.letter {
+  font-family: 'wakanda-forever';
+}
+
+textarea {
+  width: 540px;
+}
 
 /*-------------------------------------------------------------------------*/
 footer .foot {
@@ -101,4 +183,13 @@ footer .social-media-footer {
 
 footer .foot {
   background: radial-gradient(#3D2DA6 0%, #021740 30, 92%);
+}
+
+nav a {
+  text-decoration: none;
+
+}
+
+.link-ankre:hover {
+  text-decoration: underline;
 }

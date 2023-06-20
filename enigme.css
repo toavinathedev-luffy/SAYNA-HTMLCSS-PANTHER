@@ -25,6 +25,11 @@
 
  .doYouKnow {
      text-align: center;
+     width: 50%;
+     background: url(./images/Illustrations+Logo/Enigme/Pantherenigme2.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
 
  }
 
@@ -33,5 +38,33 @@
      background-repeat: no-repeat;
      background-position: center;
      background-size: cover;
+
+ }
+
+ h2.question {
+     font-family: 'wakanda-forever';
+     font-size: 43px;
+     width: 70%;
+ }
+
+
+ input[type="text"]::placeholder {
+     color: #DF99F2;
+ }
+
+ input {
+     height: 48px
+ }
+
+ form {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+     gap: 100px
+ }
+
+ form input[type=submit]:hover {
+     box-shadow: #F2CEF2;
 
  }
